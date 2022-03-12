@@ -1,0 +1,3 @@
+#!/data/data/com.termux/files/usr/bin/bash
+pip install PySimpleGUI
+echo "[*] Post-Install Message: Thanks to install proot-launcher!"

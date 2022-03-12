@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Proot-Launcher
+GenericName=Linux App Emulator
+Comment=Linux app emulator for termux
+Exec=proot-launcher
+Icon=applications-engineering
+Terminal=false
+Type=Application
+Categories=Gtk;System;
+StartupNotify=true;
+X-KDE-StartupNotify=true;

@@ -1,0 +1,30 @@
+control:
+    Package: proot-launcher
+    Version: 0.1
+    Architecture: all
+    Maintainer: Yisus7u7 <yisus7u7v@gmail.com>
+    Depends: python, python-tkinter, zenity, proot, proot-distro, libandroid-support, libnotify
+    Homepage: https://github.com/Yisus7u7/proot-launcher
+    Description: A Graphical interface made in PySimpleGUI to emulate apps in a proot container from termux x11
+        
+installation_prefix: /data/data/com.termux/files/usr
+control_files_dir: .pkg
+
+data_files:
+    bin/proot-launcher:
+        source: proot-launcher
+        
+    opt/proot-launcher/main.py:
+        source: main.py
+        
+    opt/proot-launcher/lib:
+        source: lib
+        
+    opt/proot-launcher/resources:
+        source: resources
+        
+    share/licenses/proot-launcher/LICENSE:
+        source: LICENSE
+        
+    share/applications/org.yisus.proot-launcher.desktop:
+        source: org.yisus.proot-launcher.desktop

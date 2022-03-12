@@ -1,0 +1,6 @@
+#!/data/data/com.termux/files/usr/bin/bash
+APP_DATA_PATH=/data/data/com.termux/files/usr/opt/proot-launcher
+cd $APP_DATA_PATH
+python ./main.py
+cd -
+exit
