@@ -105,7 +105,7 @@ while True:
         os.system('xfce4-terminal -e \"./lib/delapp.sh\"')
         
     if event == 'ADDAPP_CUTE':
-        os.system("zenity --error --text=\"Option no finished.\"")
+        os.system('xfce4-terminal -e \"./lib/add_app_easy.sh\"')
         
     if event == 'ABOUT':
         sg.Popup("Autor: Yisus7u7 <yisus7u7v@gmail.com>", "proot-manager is a linux app emulator for termux environment")
