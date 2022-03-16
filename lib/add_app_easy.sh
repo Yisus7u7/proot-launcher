@@ -14,6 +14,8 @@ if [ $OPTION == "firefox-esr" ]; then
 	
 elif [ $OPTION == "libreoffice" ]; then
 	$CONTAINER_EXECUTOR apk add libreoffice ttf-dejavu adwaita-icon-theme
+	cp $ROOT/libreoffice/libreoffice $PREFIX/bin
+	cp $ROOT/libreoffice/libreoffice.desktop $PREFIX/share/applications
 	$FMSG
 	
 elif [ $OPTION == "abiword" ]; then

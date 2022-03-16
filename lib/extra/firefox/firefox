@@ -1,3 +1,3 @@
 #!/data/data/com.termux/files/usr/bin/bash
 xhost +
-proot-distro login --shared-tmp alpine -- exec-app firefox
+proot-distro login --shared-tmp alpine -- exec-app firefox "$@"
